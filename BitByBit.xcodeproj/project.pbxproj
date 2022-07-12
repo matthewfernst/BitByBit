@@ -11,6 +11,13 @@
 		65714018287D35E9000DB245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65714017287D35E9000DB245 /* ContentView.swift */; };
 		6571401A287D35EB000DB245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65714019287D35EB000DB245 /* Assets.xcassets */; };
 		6571401D287D35EB000DB245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6571401C287D35EB000DB245 /* Preview Assets.xcassets */; };
+		65714028287D3733000DB245 /* EaseInViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65714025287D3733000DB245 /* EaseInViewModifier.swift */; };
+		65714029287D3733000DB245 /* AuthorizeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65714026287D3733000DB245 /* AuthorizeButtons.swift */; };
+		6571402A287D3733000DB245 /* AuthorizeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65714027287D3733000DB245 /* AuthorizeButton.swift */; };
+		6571402D287D38BE000DB245 /* 3Dventure.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6571402C287D38BE000DB245 /* 3Dventure.ttf */; };
+		6571402F287D38C7000DB245 /* DINMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6571402E287D38C7000DB245 /* DINMedium.ttf */; };
+		65714031287D38CD000DB245 /* DIN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65714030287D38CD000DB245 /* DIN.ttf */; };
+		65714033287D38D4000DB245 /* DINBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65714032287D38D4000DB245 /* DINBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		65714017287D35E9000DB245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65714019287D35EB000DB245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6571401C287D35EB000DB245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65714025287D3733000DB245 /* EaseInViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaseInViewModifier.swift; sourceTree = "<group>"; };
+		65714026287D3733000DB245 /* AuthorizeButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizeButtons.swift; sourceTree = "<group>"; };
+		65714027287D3733000DB245 /* AuthorizeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizeButton.swift; sourceTree = "<group>"; };
+		6571402C287D38BE000DB245 /* 3Dventure.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3Dventure.ttf; sourceTree = "<group>"; };
+		6571402E287D38C7000DB245 /* DINMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINMedium.ttf; sourceTree = "<group>"; };
+		65714030287D38CD000DB245 /* DIN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIN.ttf; sourceTree = "<group>"; };
+		65714032287D38D4000DB245 /* DINBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINBold.ttf; sourceTree = "<group>"; };
+		65714034287D3902000DB245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,7 @@
 		65714009287D35E9000DB245 = {
 			isa = PBXGroup;
 			children = (
+				6571402B287D38B3000DB245 /* Fonts */,
 				65714014287D35E9000DB245 /* BitByBit */,
 				65714013287D35E9000DB245 /* Products */,
 			);
@@ -51,7 +67,11 @@
 		65714014287D35E9000DB245 /* BitByBit */ = {
 			isa = PBXGroup;
 			children = (
+				65714034287D3902000DB245 /* Info.plist */,
 				65714015287D35E9000DB245 /* BitByBitApp.swift */,
+				65714027287D3733000DB245 /* AuthorizeButton.swift */,
+				65714026287D3733000DB245 /* AuthorizeButtons.swift */,
+				65714025287D3733000DB245 /* EaseInViewModifier.swift */,
 				65714017287D35E9000DB245 /* ContentView.swift */,
 				65714019287D35EB000DB245 /* Assets.xcassets */,
 				6571401B287D35EB000DB245 /* Preview Content */,
@@ -65,6 +85,17 @@
 				6571401C287D35EB000DB245 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6571402B287D38B3000DB245 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6571402C287D38BE000DB245 /* 3Dventure.ttf */,
+				6571402E287D38C7000DB245 /* DINMedium.ttf */,
+				65714030287D38CD000DB245 /* DIN.ttf */,
+				65714032287D38D4000DB245 /* DINBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +156,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6571402D287D38BE000DB245 /* 3Dventure.ttf in Resources */,
+				65714033287D38D4000DB245 /* DINBold.ttf in Resources */,
+				6571402F287D38C7000DB245 /* DINMedium.ttf in Resources */,
 				6571401D287D35EB000DB245 /* Preview Assets.xcassets in Resources */,
+				65714031287D38CD000DB245 /* DIN.ttf in Resources */,
 				6571401A287D35EB000DB245 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65714028287D3733000DB245 /* EaseInViewModifier.swift in Sources */,
 				65714018287D35E9000DB245 /* ContentView.swift in Sources */,
 				65714016287D35E9000DB245 /* BitByBitApp.swift in Sources */,
+				65714029287D3733000DB245 /* AuthorizeButtons.swift in Sources */,
+				6571402A287D3733000DB245 /* AuthorizeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +305,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BitByBit/Preview Content\"";
+				DEVELOPMENT_TEAM = T5V587BPQM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BitByBit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,8 +336,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BitByBit/Preview Content\"";
+				DEVELOPMENT_TEAM = T5V587BPQM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BitByBit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
