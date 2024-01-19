@@ -29,6 +29,7 @@ final class BBAppleMusicViewViewModel: BBMusicServiceViewModel {
     // MARK: - Init
     
     init() {
+        /// Subscribes to media controls changing states and calls the selector to handle changes
         NotificationCenter.default.addObserver(self, selector: #selector(handlePlaybackStateChange), name: .MPMusicPlayerControllerPlaybackStateDidChange, object: musicPlayer)
         
         musicPlayer.beginGeneratingPlaybackNotifications()
@@ -83,8 +84,9 @@ final class BBAppleMusicViewViewModel: BBMusicServiceViewModel {
     
     // MARK: - Private
     
-    @objc
-    private func handlePlaybackStateChange() {
+    
+    /// Function to handle playback state changes. It will update the media control button state and album artwork
+    @objc private func handlePlaybackStateChange() {
         let playbackState = musicPlayer.playbackState
         guard let nowPlayingItem = musicPlayer.nowPlayingItem,
         let trackName = nowPlayingItem.title,

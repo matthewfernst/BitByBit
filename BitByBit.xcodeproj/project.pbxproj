@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		653E0D012B579BC200A31F1D /* BBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D002B579BC200A31F1D /* BBTabBarController.swift */; };
-		653E0D032B579F9800A31F1D /* BBSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D022B579F9800A31F1D /* BBSettingsViewController.swift */; };
+		653E0D032B579F9800A31F1D /* BBSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D022B579F9800A31F1D /* BBSettingsTableViewController.swift */; };
 		653E0D062B58501A00A31F1D /* BBAppleMusicAuthorizeButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D052B58501A00A31F1D /* BBAppleMusicAuthorizeButtonViewModel.swift */; };
 		653E0D0B2B58594B00A31F1D /* BBAppleMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D0A2B58594A00A31F1D /* BBAppleMusicViewController.swift */; };
 		653E0D0E2B586FC700A31F1D /* BBAppleMusicViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D0D2B586FC700A31F1D /* BBAppleMusicViewViewModel.swift */; };
@@ -16,6 +16,11 @@
 		653E0D142B589B0B00A31F1D /* BBMusicServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D132B589B0B00A31F1D /* BBMusicServiceView.swift */; };
 		653E0D172B58A28600A31F1D /* BBMusicServiceViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D162B58A28600A31F1D /* BBMusicServiceViewViewModel.swift */; };
 		653E0D192B58D83600A31F1D /* BBAppleMusicTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E0D182B58D83600A31F1D /* BBAppleMusicTrack.swift */; };
+		6564F5882B58F3CE00F314AB /* BBSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564F5872B58F3CE00F314AB /* BBSettingsTableViewCell.swift */; };
+		6564F58B2B58F49B00F314AB /* BBSettingsTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564F58A2B58F49B00F314AB /* BBSettingsTableViewCellViewModel.swift */; };
+		6564F58F2B58F57C00F314AB /* BBSettingsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564F58E2B58F57C00F314AB /* BBSettingsOption.swift */; };
+		6564F5912B59863A00F314AB /* BBSettingsTableViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564F5902B59863A00F314AB /* BBSettingsTableViewControllerViewModel.swift */; };
+		657109722B5A39C2004A78A7 /* BBMadeWithLoveFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657109712B5A39C2004A78A7 /* BBMadeWithLoveFooterView.swift */; };
 		65AB51F42B56E059009C9EDF /* BBSpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB51F32B56E059009C9EDF /* BBSpotifyView.swift */; };
 		65CC614C2B54F85700FED03A /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 65CC614B2B54F85700FED03A /* SpotifyiOS */; };
 		65CC614F2B550C3200FED03A /* BBSpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC614E2B550C3200FED03A /* BBSpotifyViewController.swift */; };
@@ -35,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		653E0D002B579BC200A31F1D /* BBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTabBarController.swift; sourceTree = "<group>"; };
-		653E0D022B579F9800A31F1D /* BBSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsViewController.swift; sourceTree = "<group>"; };
+		653E0D022B579F9800A31F1D /* BBSettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsTableViewController.swift; sourceTree = "<group>"; };
 		653E0D052B58501A00A31F1D /* BBAppleMusicAuthorizeButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBAppleMusicAuthorizeButtonViewModel.swift; sourceTree = "<group>"; };
 		653E0D082B58564700A31F1D /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = System/Library/Frameworks/MusicKit.framework; sourceTree = SDKROOT; };
 		653E0D0A2B58594A00A31F1D /* BBAppleMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBAppleMusicViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +49,11 @@
 		653E0D132B589B0B00A31F1D /* BBMusicServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBMusicServiceView.swift; sourceTree = "<group>"; };
 		653E0D162B58A28600A31F1D /* BBMusicServiceViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBMusicServiceViewViewModel.swift; sourceTree = "<group>"; };
 		653E0D182B58D83600A31F1D /* BBAppleMusicTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBAppleMusicTrack.swift; sourceTree = "<group>"; };
+		6564F5872B58F3CE00F314AB /* BBSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		6564F58A2B58F49B00F314AB /* BBSettingsTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		6564F58E2B58F57C00F314AB /* BBSettingsOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsOption.swift; sourceTree = "<group>"; };
+		6564F5902B59863A00F314AB /* BBSettingsTableViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsTableViewControllerViewModel.swift; sourceTree = "<group>"; };
+		657109712B5A39C2004A78A7 /* BBMadeWithLoveFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBMadeWithLoveFooterView.swift; sourceTree = "<group>"; };
 		65AB51F32B56E059009C9EDF /* BBSpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSpotifyView.swift; sourceTree = "<group>"; };
 		65CC614D2B54FA1C00FED03A /* BitByBit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitByBit-Bridging-Header.h"; sourceTree = "<group>"; };
 		65CC614E2B550C3200FED03A /* BBSpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSpotifyViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +135,33 @@
 			path = MusicServices;
 			sourceTree = "<group>";
 		};
+		6564F5842B58EE0600F314AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6564F5872B58F3CE00F314AB /* BBSettingsTableViewCell.swift */,
+				657109712B5A39C2004A78A7 /* BBMadeWithLoveFooterView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6564F5892B58F49400F314AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6564F58A2B58F49B00F314AB /* BBSettingsTableViewCellViewModel.swift */,
+				6564F58E2B58F57C00F314AB /* BBSettingsOption.swift */,
+				6564F5902B59863A00F314AB /* BBSettingsTableViewControllerViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6564F58C2B58F56E00F314AB /* AppleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				653E0D182B58D83600A31F1D /* BBAppleMusicTrack.swift */,
+			);
+			path = AppleMusic;
+			sourceTree = "<group>";
+		};
 		65AB51F22B565EA3009C9EDF /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +233,7 @@
 		65EA107D2B5462C5005A6467 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6564F5842B58EE0600F314AB /* Settings */,
 				653E0D122B589AED00A31F1D /* MusicServices */,
 				65EA10872B549D26005A6467 /* Authorization */,
 			);
@@ -205,6 +243,7 @@
 		65EA107E2B5462CB005A6467 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				6564F5892B58F49400F314AB /* Settings */,
 				653E0D152B58A27500A31F1D /* MusicServices */,
 				653E0D0C2B586FB500A31F1D /* AppleMusic */,
 				653E0D042B584FFC00A31F1D /* Spotify */,
@@ -216,7 +255,7 @@
 		65EA107F2B5462D2005A6467 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				653E0D182B58D83600A31F1D /* BBAppleMusicTrack.swift */,
+				6564F58C2B58F56E00F314AB /* AppleMusic */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -227,7 +266,7 @@
 				653E0D002B579BC200A31F1D /* BBTabBarController.swift */,
 				65EA10692B5461AC005A6467 /* BBAuthorizeViewController.swift */,
 				65CC614E2B550C3200FED03A /* BBSpotifyViewController.swift */,
-				653E0D022B579F9800A31F1D /* BBSettingsViewController.swift */,
+				653E0D022B579F9800A31F1D /* BBSettingsTableViewController.swift */,
 				653E0D0A2B58594A00A31F1D /* BBAppleMusicViewController.swift */,
 			);
 			path = Controllers;
@@ -328,8 +367,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6564F58F2B58F57C00F314AB /* BBSettingsOption.swift in Sources */,
 				65CC61512B550ECB00FED03A /* BBSpotifyAuthorizeButtonViewModel.swift in Sources */,
 				653E0D112B586FE200A31F1D /* BBAppleMusicView.swift in Sources */,
+				6564F5912B59863A00F314AB /* BBSettingsTableViewControllerViewModel.swift in Sources */,
+				657109722B5A39C2004A78A7 /* BBMadeWithLoveFooterView.swift in Sources */,
 				65CC61532B550F5100FED03A /* Constants.swift in Sources */,
 				653E0D0B2B58594B00A31F1D /* BBAppleMusicViewController.swift in Sources */,
 				65EA108B2B54E51A005A6467 /* BBAuthorizationView.swift in Sources */,
@@ -337,13 +379,15 @@
 				65EA10862B547963005A6467 /* BBAuthorizeButton.swift in Sources */,
 				65EA10842B54662A005A6467 /* Extensions.swift in Sources */,
 				65EA106A2B5461AC005A6467 /* BBAuthorizeViewController.swift in Sources */,
+				6564F58B2B58F49B00F314AB /* BBSettingsTableViewCellViewModel.swift in Sources */,
 				65EA108E2B54F52E005A6467 /* BBSpotifyViewViewModel.swift in Sources */,
 				653E0D012B579BC200A31F1D /* BBTabBarController.swift in Sources */,
 				65CC614F2B550C3200FED03A /* BBSpotifyViewController.swift in Sources */,
 				653E0D0E2B586FC700A31F1D /* BBAppleMusicViewViewModel.swift in Sources */,
-				653E0D032B579F9800A31F1D /* BBSettingsViewController.swift in Sources */,
+				653E0D032B579F9800A31F1D /* BBSettingsTableViewController.swift in Sources */,
 				65EA10892B549D5D005A6467 /* BBAuthorizationButtonStackView.swift in Sources */,
 				653E0D192B58D83600A31F1D /* BBAppleMusicTrack.swift in Sources */,
+				6564F5882B58F3CE00F314AB /* BBSettingsTableViewCell.swift in Sources */,
 				65EA10662B5461AC005A6467 /* AppDelegate.swift in Sources */,
 				653E0D062B58501A00A31F1D /* BBAppleMusicAuthorizeButtonViewModel.swift in Sources */,
 				65EA10682B5461AC005A6467 /* SceneDelegate.swift in Sources */,
@@ -495,10 +539,11 @@
 				DEVELOPMENT_TEAM = T5V587BPQM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BitByBit/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Display  Music Albums in 64 bit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,10 +569,11 @@
 				DEVELOPMENT_TEAM = T5V587BPQM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BitByBit/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Display  Music Albums in 64 bit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

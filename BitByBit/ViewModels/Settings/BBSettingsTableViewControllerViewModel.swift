@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct BBSettingsTableViewControllerViewModel {
+    let cellViewModelsBySection: [[BBSettingsTableViewCellViewModel]]
+}

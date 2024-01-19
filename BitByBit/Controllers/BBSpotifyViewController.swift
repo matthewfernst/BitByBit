@@ -8,7 +8,7 @@
 import UIKit
 
 /// View controller containing Spotify and it's endpoints
-class BBSpotifyViewController: UIViewController {
+final class BBSpotifyViewController: UIViewController {
     
     private let viewModel: BBSpotifyViewViewModel
     

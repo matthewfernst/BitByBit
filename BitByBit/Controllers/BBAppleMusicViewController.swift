@@ -7,13 +7,12 @@
 
 import UIKit
 
-class BBAppleMusicViewController: UIViewController {
+final class BBAppleMusicViewController: UIViewController {
     
     private let viewModel = BBAppleMusicViewViewModel()
     
     private let appleMusicView = BBAppleMusicView()
 
-    
     // MARK: - Lifecycle
 
     override func viewDidLoad() {

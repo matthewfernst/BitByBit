@@ -8,16 +8,18 @@
 import UIKit
 import MediaPlayer
 
+/// View showing Apple Music's current playing track / media ctrols
 final class BBAppleMusicView: BBMusicServiceView {
     
     // MARK: - Public
     
+    /// Configures the view with a view model. Specifically, for track names, album artwork, and controls of buttons. Also, sets the delegate to self for the view model.
+    /// - Parameter viewModel: The viewModel to configure with
     public func configure(with viewModel: BBAppleMusicViewViewModel) {
         viewModel.delegate = self
         addTargetsToButtons(with: viewModel)
         viewModel.initialUpdateState()
     }
-    
 }
 
 // MARK: - BBAppleMusicViewViewModelDelegate

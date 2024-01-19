@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BBTabBarController: UITabBarController {
+final class BBTabBarController: UITabBarController {
     
     private let musicServiceVC: UIViewController
     
@@ -29,11 +29,10 @@ class BBTabBarController: UITabBarController {
         setUpTabs()
     }
     
-    
     // MARK: - Private
     
     private func setUpTabs() {
-        let settingsVC = BBSettingsViewController()
+        let settingsVC = BBSettingsTableViewController()
         let isSpotifyVC = musicServiceVC is BBSpotifyViewController
         let tabBarItemColor: UIColor = isSpotifyVC ? .systemGreen : .systemPink
         let musicTabBarItemTitle = isSpotifyVC ? "Spotify" : "Apple Music"

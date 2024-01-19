@@ -35,6 +35,10 @@ final class BBAuthorizeViewController: UIViewController {
         ])
     }
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+    
     // MARK: - Public
 
     public func moveToSpotifyVC() {
