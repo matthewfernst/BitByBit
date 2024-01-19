@@ -2,7 +2,7 @@
 
 iOS App to display album artwork in 64-Bit from [Spotify](https://www.spotify.com) or [Apple Music](https://music.apple.com/us/browse).
 
-<img src="BitByBit/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="300" height="300"/>
+<img src="BitByBit/Resources/Assets.xcassets/AppIcon.appiconset/bitByBitAppIcon.png" width="300" height="300"/>
 
 ## About This Project
 
