@@ -55,6 +55,7 @@
 		6564F5902B59863A00F314AB /* BBSettingsTableViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSettingsTableViewControllerViewModel.swift; sourceTree = "<group>"; };
 		657109712B5A39C2004A78A7 /* BBMadeWithLoveFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBMadeWithLoveFooterView.swift; sourceTree = "<group>"; };
 		657109732B5AFB5C004A78A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		657109742B5AFD5C004A78A7 /* PrivacyPolicy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PrivacyPolicy.md; sourceTree = "<group>"; };
 		65AB51F32B56E059009C9EDF /* BBSpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSpotifyView.swift; sourceTree = "<group>"; };
 		65CC614D2B54FA1C00FED03A /* BitByBit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitByBit-Bridging-Header.h"; sourceTree = "<group>"; };
 		65CC614E2B550C3200FED03A /* BBSpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBSpotifyViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 		65EA10592B5461AC005A6467 = {
 			isa = PBXGroup;
 			children = (
+				657109742B5AFD5C004A78A7 /* PrivacyPolicy.md */,
 				657109732B5AFB5C004A78A7 /* README.md */,
 				65CC614D2B54FA1C00FED03A /* BitByBit-Bridging-Header.h */,
 				65EA10642B5461AC005A6467 /* BitByBit */,
